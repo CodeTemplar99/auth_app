@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:auth_app/constants.dart';
 import 'package:auth_app/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,8 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Auth App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: Color(0xFFFFFFFF),
+        primarySwatch: buildMaterialColor(Color(0xFFFC7823)),
+        scaffoldBackgroundColor: Color(0xFFF8F7FC),
       ),
       home: HomeScreen(),
     );
