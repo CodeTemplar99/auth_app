@@ -2,6 +2,7 @@
 
 import 'package:auth_app/constants.dart';
 import 'package:auth_app/screens/login_screen.dart';
+import 'package:auth_app/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -174,7 +175,7 @@ class SignupScreen extends StatelessWidget {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) => SignupScreen()));
+                                        builder: (context) => ProfileScreen()));
                               },
                               child: Text(
                                 "Register Now",
